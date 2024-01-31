@@ -6,21 +6,20 @@ body {
     margin-right: 0px;
     margin-bottom: 0px;
     margin-top: 0px;
-    color: white;
+    color: #F9FAF8;
     font-family: 'Roboto', sans-serif;
 }
 
 a {
     text-decoration: none;
-    color: white;
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
 .header {
     display: flex;
     flex-direction: row;
     background-color: #1F2937;
-
-
 }
 
 .header-Logo {
@@ -28,7 +27,7 @@ a {
     margin-right: auto;
     padding: 15px;
     margin-left: 80px;
-    font-size: 24px;
+    font-size: 26px;
     font-weight: bold;
 }
 
@@ -42,4 +41,71 @@ a {
 
 .link-three {
     margin-right: 80px;
+}
+
+.main {
+    display: flex;
+    background-color: #1F2937;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.big-text {
+    display: flex;
+    font-size: 48px;
+    font-weight: 950;
+}
+
+.small-text {
+    display: flex;
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 10px;
+    
+}
+
+.container1 {
+    display: flex;
+    margin-left: 95px;
+    flex-direction: column;
+    width: 700px;
+    margin-right: 50px;
+    justify-content: center;
+    
+}
+
+.container2 {
+    display: flex;
+    background-color: gray;
+    margin-right: 95px;
+    width: 700px;
+    height: 250px;
+    margin-left: auto;
+    
+}
+
+.image {
+    display: flex;
+    margin: auto;
+
+}
+
+.sign-up {
+    display: flex;
+    width: fit-content;
+    height: 20px;
+    background-color: #3882F6;
+    margin-top: 25px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-color: red;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.sign-up-fake-link {
+    font-weight: bold;
+    font-size: 16px;
 }
