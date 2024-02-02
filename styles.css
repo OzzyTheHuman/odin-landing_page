@@ -162,3 +162,9 @@ a {
     display: flex;
     flex-direction: column;
 }
+
+.quote {
+    display: flex;
+    background-color: #E5E7EB;
+    height: 600px;
+}
