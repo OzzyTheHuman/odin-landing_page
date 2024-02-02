@@ -166,5 +166,24 @@ a {
 .quote {
     display: flex;
     background-color: #E5E7EB;
-    height: 600px;
+    height: 500px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-quote {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1F2937;
+    margin-left: 95px;
+    margin-right: 95px;
+}
+
+.text-quote-author {
+    font-weight: bold;
+    color: #1F2937;
+    text-align: right;
+    margin-right: 95px;
+    margin-left: 95px;
 }
