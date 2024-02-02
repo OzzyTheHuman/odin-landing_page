@@ -114,6 +114,7 @@ a {
 .middle {
     display: flex;
     flex-direction: column;
+    padding-bottom: 100px;
 }
 
 .text {
@@ -127,6 +128,9 @@ a {
 
 .photos {
     display: flex;
+    margin-left: 95px;
+    margin-right: 95px;
+    justify-content: space-between;
 }
 
 .photo-1,
@@ -134,9 +138,10 @@ a {
 .photo-3,
 .photo-4 {
     display: flex;
-    background-color: #3882F6;
-    width: 150px;
-    height: 150px;
+    width: 180px;
+    height: 180px;
+    border: 5px solid #3882F6;
+    border-radius: 25px;
 }
 
 .text-under-photo-1,
@@ -145,7 +150,8 @@ a {
 .text-under-photo-4 {
     display: flex;
     color: gray;
-    width: 150px;
+    width: 180px;
+    text-align: center;
 
 }
 
@@ -155,5 +161,4 @@ a {
 .container6 {
     display: flex;
     flex-direction: column;
-    margin-right: 20px;
 }
