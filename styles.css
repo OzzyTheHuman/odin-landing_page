@@ -187,3 +187,52 @@ a {
     margin-right: 95px;
     margin-left: 95px;
 }
+
+.last {
+    margin-left: 95px;
+    margin-right: 95px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.ad {
+    display: flex;
+    background-color: #3882F6;
+    border: 5px solid #3882F6;
+    border-radius: 25px;
+    height: 120px;
+
+}
+
+.ad-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 60px;
+}
+
+.ad-main-text {
+    display: flex;
+    font-weight: bolder;
+    font-size: 23px;
+    
+}
+
+.ad-button {
+    display: flex;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 2px white;
+    border-radius: 10px;
+    height: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.ad-button-text {
+    font-weight: bolder;
+    font-size: 16px;
+}
