@@ -2,13 +2,15 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 0px;
     margin-top: 0px;
     color: #F9FAF8;
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
+    width: 1220px;
+    align-self: center;
 }
 
 a {
@@ -101,7 +103,6 @@ a {
     padding-bottom: 7px;
     padding-left: 20px;
     padding-right: 20px;
-    border-color: red;
     border-radius: 10px;
     font-weight: bold;
 }
@@ -128,8 +129,8 @@ a {
 
 .photos {
     display: flex;
-    margin-left: 95px;
-    margin-right: 95px;
+    margin-left: 150px;
+    margin-right: 150px;
     justify-content: space-between;
 }
 
@@ -176,16 +177,18 @@ a {
     font-weight: 100;
     font-style: italic;
     color: #1F2937;
-    margin-left: 95px;
-    margin-right: 95px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 .text-quote-author {
     font-weight: bold;
     color: #1F2937;
     text-align: right;
-    margin-right: 95px;
-    margin-left: 95px;
+    margin-right: 150px;
+    margin-left: 150px;
+    font-size: 28px;
+    margin-top: 8px;
 }
 
 .last {
@@ -208,7 +211,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 60px;
+    padding-left: 100px;
 }
 
 .ad-main-text {
@@ -227,14 +230,17 @@ a {
     border-radius: 10px;
     height: 20px;
     padding-top: 7px;
-    padding-bottom: 7px;
-    padding-left: 35px;
-    padding-right: 35px;
+    padding-bottom: 14px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: fit-content;
 }
 
 .ad-button-text {
     font-weight: bolder;
-    font-size: 16px;
+    font-size: 25px;
+    justify-self: center;
+    align-items: center;
 }
 
 .footer {
