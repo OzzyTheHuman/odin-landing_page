@@ -16,7 +16,6 @@ body {
 a {
     text-decoration: none;
     color: #E5E7EB;
-    font-size: 18px;
     display: flex;
 }
 
@@ -127,11 +126,12 @@ a {
     padding-right: 20px;
     border-radius: 10px;
     font-weight: bold;
+    font-size: 18px;
 }
 
 .sign-up-fake-link {
     font-weight: bold;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .middle-container {
@@ -289,6 +289,13 @@ a {
     align-items: center;
 }
 
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+
+}
+
 .footer {
     display: flex;
     background-color: #1F2937;
@@ -298,7 +305,12 @@ a {
 
 .footer-text {
     display: flex;
-    width: fit-content;
+    height: fit-content;
+    align-self: center;
+}
+
+.footer-text2 {
+    display: flex;
     height: fit-content;
     align-self: center;
 }
