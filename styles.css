@@ -189,7 +189,7 @@ a {
 
 .text-quote {
     font-size: 36px;
-    font-weight: 100;
+    font-weight: lighter;
     font-style: italic;
     color: #1F2937;
     margin-left: 200px;
@@ -231,7 +231,7 @@ a {
 
 .ad-main-text {
     display: flex;
-    font-weight: bolder;
+    font-weight: bold;
     font-size: 23px;
     
 }
@@ -241,7 +241,7 @@ a {
     align-self: center;
     margin-left: auto;
     margin-right: auto;
-    border: solid 2px white;
+    border: solid 3px white;
     border-radius: 10px;
     height: 20px;
     padding-top: 7px;
@@ -252,8 +252,8 @@ a {
 }
 
 .ad-button-text {
-    font-weight: bolder;
-    font-size: 25px;
+    font-weight: bold;
+    font-size: 24px;
     justify-self: center;
     align-items: center;
 }
