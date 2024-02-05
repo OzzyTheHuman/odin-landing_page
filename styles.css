@@ -9,7 +9,7 @@ body {
     color: #F9FAF8;
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
-    width: 1220px;
+
     align-self: center;
 }
 
@@ -68,6 +68,13 @@ a {
     padding-bottom: 80px;
 }
 
+.main-container {
+    display: flex;
+    width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .big-text {
     display: flex;
     font-size: 48px;
@@ -88,7 +95,7 @@ a {
     margin-left: 95px;
     flex-direction: column;
     width: 700px;
-    margin-right: 50px;
+    margin-right: 130px;
     justify-content: center;
     
 }
@@ -125,6 +132,14 @@ a {
 .sign-up-fake-link {
     font-weight: bold;
     font-size: 16px;
+}
+
+.middle-container {
+    display: flex;
+    width: 1220px;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .middle {
@@ -179,12 +194,21 @@ a {
     flex-direction: column;
 }
 
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    width: 1220px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .quote {
     display: flex;
     background-color: #E5E7EB;
     height: 500px;
     flex-direction: column;
     justify-content: center;
+
 }
 
 .text-quote {
@@ -206,9 +230,15 @@ a {
     margin-top: 8px;
 }
 
+.last-container {
+    display: flex;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .last {
-    margin-left: 95px;
-    margin-right: 95px;
+    display: flex;
     margin-top: 80px;
     margin-bottom: 80px;
 }
@@ -219,6 +249,7 @@ a {
     border: 5px solid #3882F6;
     border-radius: 25px;
     height: 120px;
+    width: 1020px;
 
 }
 
