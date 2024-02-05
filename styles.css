@@ -20,7 +20,13 @@ a {
     display: flex;
 }
 
-.second-link{
+.first-link {
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+}
+
+.second-link {
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -73,6 +79,7 @@ a {
     font-size: 18px;
     color: #E5E7EB;
     margin-top: 10px;
+    margin-bottom: 25px;
     
 }
 
@@ -107,7 +114,6 @@ a {
     width: fit-content;
     height: 20px;
     background-color: #3882F6;
-    margin-top: 25px;
     padding-top: 7px;
     padding-bottom: 7px;
     padding-left: 20px;
