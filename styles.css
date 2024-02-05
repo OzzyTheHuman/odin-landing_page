@@ -173,6 +173,8 @@ a {
     height: 180px;
     border: 5px solid #3882F6;
     border-radius: 25px;
+    background-color: gray;
+    align-items: center;
 }
 
 .text-under-photo-1,
