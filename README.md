@@ -4,8 +4,8 @@ Simple yet aesthetic website that I made, while learning HTML and CSS with [Odin
 
 ## Description
 
-This is my second project that I made following [Odin-Project](https://www.theodinproject.com/about) course. It features landing page that looks more up-to-date and stylish than my first one! Maybe I will use this as my portfolio in the future, who knows. 
-Design of this web was provided by [Odin-Project](https://www.theodinproject.com/about). My job was to recreate this [website](https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab00d50eef8620796d/foundations/html_css/project/imgs/01.png) from scratch, I think I did pretty well. Even on wide monitors, this website stays in order and nothing is stretched too much.
+This is my second project that I made following [Odin-Project](https://www.theodinproject.com/about) course. It features landing page that looks more up-to-date and stylish than my first one! Maybe I will use this as my portfolio in the future, who knows. \
+Design of this web was provided by [Odin-Project](https://www.theodinproject.com/about). My job was to recreate this [website](https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab00d50eef8620796d/foundations/html_css/project/imgs/01.png) from scratch, I think I did pretty well. Even on wide monitors, this website stays in order and nothing is stretched too much. \
 In this project I improved my skills in using **display: flex;** property. Its very convinient once you get the hang of it.
 
 ## How to install
